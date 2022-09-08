@@ -1,0 +1,25 @@
+{
+  "name": "nertc-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scaret/nertc-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scaret/nertc-typescript/issues"
+  },
+  "homepage": "https://github.com/scaret/nertc-typescript#readme",
+  "dependencies": {
+    "@types/webrtc": "^0.0.32",
+    "nertc-web-sdk": "^4.6.21",
+    "typescript": "4.7"
+  }
+}
